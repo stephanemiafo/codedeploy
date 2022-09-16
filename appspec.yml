@@ -9,11 +9,11 @@ hooks:
     - location: Scripts/install_dependencies
       timeout: 180
       runas: root
-    - location: Scripts/start_server
-      timeout: 180
-      runas: root
-  ApplicationStop:
-    - location: Scripts/stop_server
-      timeout: 180
-      runas: root
+  #   - location: Scripts/start_server
+  #     timeout: 180
+  #     runas: root
+  # ApplicationStop:
+  #   - location: Scripts/stop_server
+  #     timeout: 180
+  #     runas: root
 
